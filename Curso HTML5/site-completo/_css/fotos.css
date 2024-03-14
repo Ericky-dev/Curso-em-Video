@@ -20,7 +20,7 @@ ul#album-fotos li{
     box-shadow: 1px 1px 1px #000000;
     background-color: rgba(0,0,0,.3);
     font-size: 9pt;
-    line-height: 370;
+    line-height: 370px;
     padding:5px;
 }
 

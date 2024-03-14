@@ -7,3 +7,9 @@ ul#album-fotos{
     overflow:hidden;
     list-style: none;
 }
+
+ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+}

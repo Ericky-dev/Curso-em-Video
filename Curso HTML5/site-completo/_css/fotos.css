@@ -4,4 +4,6 @@ ul#album-fotos{
     width: 700px;
     margin: 0 auto;
     padding: 50px;
+    overflow:hidden;
+    list-style: none;
 }

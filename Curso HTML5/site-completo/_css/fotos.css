@@ -20,6 +20,10 @@ ul#album-fotos li{
     box-shadow: 1px 1px 1px rgba(0,0,0,.4);
 }
 
+ul#album-fotos li span{
+    opacity: 0;
+}
+
 ul#album-fotos li#foto01{
     background: url('../_imagens/galeria-01.jpg') no-repeat;
 }

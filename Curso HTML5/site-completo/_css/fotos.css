@@ -19,7 +19,7 @@ ul#album-fotos li{
     background-color: #ffffff;
 }
 
-ul#album-fotos li span:hover{
+ul#album-fotos li:hover span{
    opacity: 1;
 }
 

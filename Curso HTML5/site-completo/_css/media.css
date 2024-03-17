@@ -22,3 +22,9 @@ video#filme{
     top:60px;
     width:440px;
 }
+
+aside#lateral img{
+display:block;
+width:100px;
+height:100px;
+}

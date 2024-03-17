@@ -10,7 +10,7 @@ div#tv-radio{
 audio#musica{
     display:block;
     position: relative;
-    top:510px;
-    left:580px;
+    top:500px;
+    left:575px;
     width:300px;
 }

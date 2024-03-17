@@ -6,7 +6,8 @@
     "axe/text-alternatives": [
       "default",
       {
-        "area-alt": "off"
+        "area-alt": "off",
+        "frame-title": "off"
       }
     ]
   }

@@ -14,3 +14,9 @@ audio#musica{
     left:574px;
     width:300px;
 }
+
+video#filme{
+    display:block;
+    position:relative;
+    left:100px;
+}

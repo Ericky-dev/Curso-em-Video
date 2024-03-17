@@ -23,7 +23,7 @@ video#filme{
     width:440px;
 }
 
-aside#lateral img{
+aside#lateral {
 display:block;
 width:200px;
 height:100px;

@@ -24,6 +24,7 @@ video#filme{
 }
 
 aside#lateral video{
+position:relative;
 display:block;
 width:500px;
 height:100px;

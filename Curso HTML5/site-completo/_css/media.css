@@ -27,8 +27,8 @@ video#lateral{
 position:relative;
 display:block;
 left:25px;
-margin-top:0px;
-width:300px;
+margin-top:-30px;
+width:350px;
 height:300px;
 
 }

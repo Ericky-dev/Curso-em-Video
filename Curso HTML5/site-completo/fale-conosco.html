@@ -6,6 +6,15 @@
     <title>Tudo Sobre Google Glass </title>
     <link rel="stylesheet" href="_css/estilo.css">
     <link rel="stylesheet" href="_css/form.css">
+    <javascript language="javascript" src="_javascript/funcoes.js"></javascript>
+    <script>
+        function calc_total(){
+            var qtd = parseInt(document.getElementByid('cQtd').value);
+            tot = qtd * 1500;
+            document.getElementById('cTotal').value = tot;
+        }
+
+    </script>
 </head>
         <script>
             function mudaFoto(foto){
@@ -40,7 +49,7 @@
     <h1> Formulário de Contato</h1>
     <h2> por Ericky Gadelha Mendes</h2>
     <h3 class="direita"> Atualizado em 01/Maio/2013</h3>
-<form method="post" id="fContato" action="mailto:gadelha06@gmail.com">
+<form method="post" id="fContato" action="mailto:gadelha06@gmail.com" oninput="calc_total();">
    <fieldset id="usuario"> <legend>Identificação do Usuário</legend>
 
         <p><label for="cNome">Nome</label>:<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>

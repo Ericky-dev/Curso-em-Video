@@ -22,3 +22,12 @@ legend{
     font-size:13pt;
 
 }
+
+fieldset{
+    border-color: #cececece;
+    margin:20pt;
+}
+
+fieldset#sexo{
+    width: 150px;
+}

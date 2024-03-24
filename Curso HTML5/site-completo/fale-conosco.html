@@ -42,13 +42,13 @@
     <h3 class="direita"> Atualizado em 01/Maio/2013</h3>
 <form action="">
    <fieldset id="usuario"> <legend>Identificação do Usuário</legend>
-        <p> Nome:<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+        <p><label for="tNome">Nome</label>:<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
         <p> Senha:<input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="8 dígitos"></p>
         <p> E-mail:<input type="text" name="tEmail" id="cEmail"  size="20" maxlength="40"></p>
 
         <fieldset id="sexo"><legend> Sexo:</legend>
-            - Masculino
-            - Feminino
+            <input type="radio" name="cMasc"/><label for="cMasc"> Masculino</label>
+            <input type="radio" name="cFem"/><label for="cFem" >Feminino</label>
         </fieldset>
        <p> Data de Nascimento:</p>
     </fieldset>

@@ -40,7 +40,7 @@
     <h1> Formulário de Contato</h1>
     <h2> por Ericky Gadelha Mendes</h2>
     <h3 class="direita"> Atualizado em 01/Maio/2013</h3>
-<form action="">
+<form method="post" id="fContato" action="mailto:gadelha06@gmail.com">
    <fieldset id="usuario"> <legend>Identificação do Usuário</legend>
 
         <p><label for="cNome">Nome</label>:<input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
@@ -58,8 +58,19 @@
 
     <fieldset id="endereco-usuario"><legend> Endereço do Usuário</legend>
         <p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua,Av,Trav..."/></p>
-        <p>Número:<input type="number" name="tNum" id="cNum" min="0" max="9999"/></p>
-        <p>Estado:<input type="" name="" id=""/></p>
+
+        <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="9999"/></p>
+
+        <p><label for="cEst">Estado:</label><select name="tEst" id="cEst">
+            <option value="">Refice-Pe</option>
+            <option value="">Rio de Janerio</option>
+            <option value="">São Paulo</option>
+            <option value="">Minas Gerais</option>
+            <option value="">Santa Catarina</option>
+            <option value="">Rio Grande do Sul</option>
+            </select>
+        </p>
+
         <p>Cidade:<input type="" name="" id=""/></p>
     </fieldset>
 

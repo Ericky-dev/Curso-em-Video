@@ -36,3 +36,11 @@ fieldset#sexo{
 fieldset#usuario{
     background: url('../_imagens/icone-contato.png') no-repeat 95% 95%;
 }
+
+fieldset#endereco{
+    background: url('../_imagens/icone-endereco.png') no-repeat;
+}
+
+fieldset#mensagem{
+    background: url('../_imagens/icone-mensagem.png');
+}

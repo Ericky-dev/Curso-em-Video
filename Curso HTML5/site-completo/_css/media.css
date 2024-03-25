@@ -35,8 +35,9 @@ height:300px;
 
 aside#banner-lateral{
     display: block;
+    left:10px;
     width: 280px;
-    height: 300px;
+    height: 350px;
 }
 
 video#video-central{

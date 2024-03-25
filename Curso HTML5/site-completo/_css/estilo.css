@@ -233,6 +233,7 @@ article#noticia-lateral h4{
 }
 
 article#noticia-lateral a{
+    position: relative;
     text-align: right;
 }
 

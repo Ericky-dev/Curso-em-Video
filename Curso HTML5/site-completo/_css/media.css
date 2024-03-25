@@ -33,6 +33,12 @@ height:300px;
 
 }
 
+aside#banner-lateral{
+    display: block;
+    width: 280px;
+    height: 300px;
+}
+
 video#video-central{
     position:relative;
     display:block;

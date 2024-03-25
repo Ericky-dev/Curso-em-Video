@@ -220,11 +220,7 @@ aside#lateral p{
     padding: 10px;
 }
 
-aside#banner-lateral{
-    display: block;
-    width: 280px;
-    height: 300px;
-}
+
 
 footer#rodape{
     font-family: Arial, Helvetica, sans-serif;

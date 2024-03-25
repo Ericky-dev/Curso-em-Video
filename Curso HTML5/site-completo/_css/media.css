@@ -33,7 +33,7 @@ height:300px;
 
 }
 
-aside#lateral#banner img{
+aside#lateral #banner img{
     position:relative;
     display: block;
     left:15px;

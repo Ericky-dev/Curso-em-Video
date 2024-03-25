@@ -232,6 +232,10 @@ article#noticia-lateral h4{
     padding-left: 10px;
 }
 
+article#noticia-lateral a{
+    float:right;
+}
+
 
 
 footer#rodape{

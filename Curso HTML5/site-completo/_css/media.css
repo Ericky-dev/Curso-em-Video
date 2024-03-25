@@ -36,7 +36,7 @@ height:300px;
 aside#banner-lateral img{
     position:relative;
     display: block;
-    align-items: center;
+    left:15px;
    
 }
 

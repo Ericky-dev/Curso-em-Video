@@ -221,6 +221,7 @@ aside#lateral p{
 }
 
 aside#banner-lateral{
+    display: block;
     width: 280px;
     height: 300px;
 }

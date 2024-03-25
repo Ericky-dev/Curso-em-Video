@@ -34,10 +34,10 @@ height:300px;
 }
 
 aside#banner-lateral img{
+    position:relative;
     display: block;
-    left:20px;
-    width: 280px;
-    height: 350px;
+    padding-left:10px;
+   
 }
 
 video#video-central{

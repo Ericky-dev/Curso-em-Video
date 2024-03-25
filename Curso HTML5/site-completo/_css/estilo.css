@@ -220,12 +220,12 @@ aside#lateral p{
     padding: 10px;
 }
 
-aside#lateral article #banner h3{
+article#noticia-lateral h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 7px;
 }
 
-aside#lateral article #banner h4{
+article#noticia-latral h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size:4px;
 }

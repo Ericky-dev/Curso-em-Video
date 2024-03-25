@@ -220,6 +220,16 @@ aside#lateral p{
     padding: 10px;
 }
 
+aside#lateral #banner h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7px;
+}
+
+aside#lateral #banner h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:4px;
+}
+
 
 
 footer#rodape{
